@@ -1,0 +1,46 @@
+project_id = "ettophndagyzcusbovsq"
+
+[functions.log-event]
+verify_jwt = false
+
+[functions.brandvx-webhook]
+verify_jwt = false
+
+[functions.cadence-scheduler]
+verify_jwt = false
+
+[functions.send-message]
+verify_jwt = false
+
+[functions.brandvx-specialist-router]
+verify_jwt = false
+
+[functions.master-agent-orchestrator]
+verify_jwt = false
+
+[functions.acuity-oauth]
+verify_jwt = false
+
+[functions.hubspot-oauth]
+verify_jwt = false
+
+[functions.square-oauth]
+verify_jwt = false
+
+[functions.acuity-data-sync]
+verify_jwt = false
+
+[functions.hubspot-data-sync]
+verify_jwt = false
+
+[functions.square-data-sync]
+verify_jwt = false
+
+[functions.ai-recommendations]
+verify_jwt = false
+
+[functions.realtime-token]
+verify_jwt = false
+
+[functions.automation-processor]
+verify_jwt = false
