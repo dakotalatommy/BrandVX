@@ -10,8 +10,8 @@ services:
   env: docker
   plan: free
   autoDeploy: true
-  dockerfilePath: Aube-Coding-Framework/Dockerfile
-  buildContext: Aube-Coding-Framework
+  rootDir: Aube-Coding-Framework
+  dockerfilePath: Dockerfile
   healthCheckPath: /health
   envVars:
   - key: DATABASE_URL
