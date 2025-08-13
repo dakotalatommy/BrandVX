@@ -2,13 +2,13 @@ databases:
 - name: brandvx-db
   databaseName: brandvx
   user: brandvx
-  plan: starter
+  plan: free
 
 services:
 - type: web
   name: brandvx-app
   env: docker
-  plan: starter
+  plan: free
   autoDeploy: true
   rootDir: Aube-Coding-Framework
   healthCheckPath: /health
@@ -25,13 +25,3 @@ services:
     value: brandvx-users
   - key: JWT_ISSUER
     value: brandvx
-  - key: POSTHOG_API_KEY
-    sync: false
-  - key: POSTHOG_HOST
-    value: https://app.posthog.com
-  - key: OPENAI_API_KEY
-    sync: false
-  - key: REDIS_URL
-    sync: false
-
-
